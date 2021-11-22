@@ -2,7 +2,7 @@
   <div class="w-screen flex flex-wrap justify-start items-center">
     <div class="w-screen flex-center items-center">
       <div class="p-0">
-        <img :style="jgrossImageStyle" src="jgross.jpg"/>
+        <img :style="jgrossImageStyle" src="/jgross.jpg"/>
       </div>
       <div class="w-screen lg:hidden pt-4 lg:pt-8 flex flex-wrap flex-col justify-center items-center">
         <BaseScheduleMeeting class="m-0 w-[338px] text-center animate-pulse" />

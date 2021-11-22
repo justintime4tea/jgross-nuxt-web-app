@@ -4,8 +4,8 @@
       <div>
         <a class="flex-center md:flex-between items-center" href="https://google.com" target="_blank">
           <div class="block lg:hidden image-holder">
-            <img class="hover-image w-[256px] h-[256px] m-[24px]" src="jgross-commodore64-purple.svg" />
-            <img class="unhover-image w-[256px] h-[256px] m-[24px]" src="jgross-commodore64-green.svg" />
+            <img class="hover-image w-[256px] h-[256px] m-[24px]" src="/jgross-commodore64-purple.svg" />
+            <img class="unhover-image w-[256px] h-[256px] m-[24px]" src="/jgross-commodore64-green.svg" />
           </div>
           <div class="w-96 md:w-128">
             <p class="mb-16 lg:mb-0">
@@ -13,14 +13,14 @@
             </p>
           </div>
           <div class="hidden lg:block image-holder">
-            <img class="hover-image w-[256px] h-[256px] m-[24px]" src="jgross-commodore64-purple.svg" />
-            <img class="unhover-image w-[256px] h-[256px] m-[24px]" src="jgross-commodore64-green.svg" />
+            <img class="hover-image w-[256px] h-[256px] m-[24px]" src="/jgross-commodore64-purple.svg" />
+            <img class="unhover-image w-[256px] h-[256px] m-[24px]" src="/jgross-commodore64-green.svg" />
           </div>
         </a>
         <a class="flex-center md:flex-between items-center justify-between" href="https://google.com" target="_blank">
           <div class="ti-82-top block sm:hidden md:block image-holder">
-            <img class="hover-image w-[256px] h-[256px] m-[24px]" src="jgross-ti-82-purple.svg" />
-            <img class="unhover-image w-[256px] h-[256px] m-[24px]" src="jgross-ti-82-green.svg" />
+            <img class="hover-image w-[256px] h-[256px] m-[24px]" src="/jgross-ti-82-purple.svg" />
+            <img class="unhover-image w-[256px] h-[256px] m-[24px]" src="/jgross-ti-82-green.svg" />
           </div>
           <div class="w-96 md:w-128">
             <p class="my-16 lg:my-0">
@@ -28,14 +28,14 @@
             </p>
           </div>
           <div class="ti-82-bottom hidden sm:block md:hidden xl:hidden image-holder">
-            <img class="hover-image w-[256px] h-[256px] m-[24px]" src="jgross-ti-82-purple.svg" />
-            <img class="unhover-image w-[256px] h-[256px] m-[24px]" src="jgross-ti-82-green.svg" />
+            <img class="hover-image w-[256px] h-[256px] m-[24px]" src="/jgross-ti-82-purple.svg" />
+            <img class="unhover-image w-[256px] h-[256px] m-[24px]" src="/jgross-ti-82-green.svg" />
           </div>
         </a>
         <a class="flex-center sm:flex-between items-center" href="https://google.com" target="_blank">
           <div class="block lg:hidden image-holder">
-            <img class="hover-image w-[256px] md:w-[256px] m-[24px]" src="build-tech-purple.svg" />
-            <img class="unhover-image w-[256px] md:w-[256px] m-[24px]" src="build-tech-green.svg" />
+            <img class="hover-image w-[256px] md:w-[256px] m-[24px]" src="/build-tech-purple.svg" />
+            <img class="unhover-image w-[256px] md:w-[256px] m-[24px]" src="/build-tech-green.svg" />
           </div>
           <div class="w-96 md:w-128 flex-start">
             <p class="mt-16 lg:mt-0">Fast-forward 26 years later and now I work for
@@ -47,8 +47,8 @@
             </p>
           </div>
           <div class="hidden lg:block build-tech image-holder">
-            <img class="hover-image w-[256px] md:w-[256px] m-[24px]" src="build-tech-purple.svg" />
-            <img class="unhover-image w-[256px] md:w-[256px] m-[24px]" src="build-tech-green.svg" />
+            <img class="hover-image w-[256px] md:w-[256px] m-[24px]" src="/build-tech-purple.svg" />
+            <img class="unhover-image w-[256px] md:w-[256px] m-[24px]" src="/build-tech-green.svg" />
           </div>
         </a>
       </div>

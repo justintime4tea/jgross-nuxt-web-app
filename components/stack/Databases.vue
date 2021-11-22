@@ -8,8 +8,8 @@
         class="font-normal outline-none focus:outline-none"
 
         target="_blank">
-        <img class="hover-image w-48 p-2" src="mongodb-purple.svg"/>
-        <img class="unhover-image w-48 p-2" src="mongodb-white.svg" />
+        <img class="hover-image w-48 p-2" src="/mongodb-purple.svg"/>
+        <img class="unhover-image w-48 p-2" src="/mongodb-white.svg" />
         <p class="py-4 text-xl">MongoDB</p>
       </a>
     </CardWhiteBlack>
@@ -18,8 +18,8 @@
         class="font-normal outline-none focus:outline-none"
 
         target="_blank">
-        <img class="hover-image w-48 p-2" src="mssql-purple.svg"/>
-        <img class="unhover-image w-48 p-2" src="mssql-white.svg" />
+        <img class="hover-image w-48 p-2" src="/mssql-purple.svg"/>
+        <img class="unhover-image w-48 p-2" src="/mssql-white.svg" />
         <p class="py-4 text-xl"></p>
       </a>
     </CardWhiteBlack>
@@ -28,8 +28,8 @@
         class="font-normal outline-none focus:outline-none"
 
         target="_blank">
-        <img class="hover-image w-24 p-2" src="postgresql-purple.svg"/>
-        <img class="unhover-image w-24 p-2" src="postgresql-white.svg" />
+        <img class="hover-image w-24 p-2" src="/postgresql-purple.svg"/>
+        <img class="unhover-image w-24 p-2" src="/postgresql-white.svg" />
         <p class="py-4 text-xl">PostgreSQL</p>
       </a>
     </CardWhiteBlack>
@@ -38,8 +38,8 @@
         class="font-normal outline-none focus:outline-none"
 
         target="_blank">
-        <img class="hover-image w-48 p-2" src="mysql-purple.svg"/>
-        <img class="unhover-image w-48 p-2" src="mysql-white.svg" />
+        <img class="hover-image w-48 p-2" src="/mysql-purple.svg"/>
+        <img class="unhover-image w-48 p-2" src="/mysql-white.svg" />
         <p class="py-4 text-xl">MySQL</p>
       </a>
     </CardWhiteBlack>
@@ -48,8 +48,8 @@
         class="font-normal outline-none focus:outline-none"
 
         target="_blank">
-        <img class="hover-image w-48 p-2" src="mariadb-purple.svg"/>
-        <img class="unhover-image w-48 p-2" src="mariadb-white.svg" />
+        <img class="hover-image w-48 p-2" src="/mariadb-purple.svg"/>
+        <img class="unhover-image w-48 p-2" src="/mariadb-white.svg" />
         <p class="py-4 text-xl">MariaDB</p>
       </a>
     </CardWhiteBlack>
@@ -58,8 +58,8 @@
         class="font-normal outline-none focus:outline-none"
 
         target="_blank">
-        <img class="hover-image w-48 p-2" src="redis-purple.svg"/>
-        <img class="unhover-image w-48 p-2" src="redis-white.svg" />
+        <img class="hover-image w-48 p-2" src="/redis-purple.svg"/>
+        <img class="unhover-image w-48 p-2" src="/redis-white.svg" />
         <p class="py-4 text-xl">Redis</p>
       </a>
     </CardWhiteBlack>

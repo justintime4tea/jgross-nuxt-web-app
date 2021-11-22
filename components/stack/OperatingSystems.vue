@@ -77,8 +77,8 @@
         type="a"
 
         target="_blank">
-        <img class="hover-image w-24 p-2" src="debian-purple.svg"/>
-        <img class="unhover-image w-24 p-2" src="debian-white.svg" />
+        <img class="hover-image w-24 p-2" src="/debian-purple.svg"/>
+        <img class="unhover-image w-24 p-2" src="/debian-white.svg" />
       </a>
       <p class="base-tech-card-label py-4 text-xl">Debian</p>
     </CardWhiteBlack>

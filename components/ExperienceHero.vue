@@ -3,7 +3,7 @@
     <div class="w-screen h-136 flex flex-wrap bg-red-900 content-center justify-center" :style="outerStyle">
       <div class="flex flex-wrap content-center justify-center w-screen max-w-screen-md">
         <div class="justify-center">
-          <img class="rounded-full p-0 h-64" :style="jgrossImageStyle" src="jgross.jpg"/>
+          <img class="rounded-full p-0 h-64" :style="jgrossImageStyle" src="/jgross.jpg"/>
         </div>
         <div class="pt-8 px-8">
          <h2>Technical Solutions Engineer</h2>

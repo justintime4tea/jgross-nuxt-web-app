@@ -8,8 +8,8 @@
         class="font-normal outline-none focus:outline-none"
 
         target="_blank">
-        <img class="hover-image w-48 p-2" src="grpc-purple.svg"/>
-        <img class="unhover-image w-48 p-2" src="grpc-white.svg" />
+        <img class="hover-image w-48 p-2" src="/grpc-purple.svg"/>
+        <img class="unhover-image w-48 p-2" src="/grpc-white.svg" />
         <p class="py-4 text-xl">AMQP</p>
       </a>
     </CardWhiteBlack>
@@ -18,8 +18,8 @@
         class="font-normal outline-none focus:outline-none"
 
         target="_blank">
-        <img class="hover-image w-48 p-2" src="grpc-purple.svg"/>
-        <img class="unhover-image w-48 p-2" src="grpc-white.svg" />
+        <img class="hover-image w-48 p-2" src="/grpc-purple.svg"/>
+        <img class="unhover-image w-48 p-2" src="/grpc-white.svg" />
         <p class="py-4 text-xl">MQTT</p>
       </a>
     </CardWhiteBlack>
@@ -28,8 +28,8 @@
         class="font-normal outline-none focus:outline-none"
 
         target="_blank">
-        <img class="hover-image w-24 p-2" src="apache-kafka-purple.svg"/>
-        <img class="unhover-image w-24 p-2" src="apache-kafka-white.svg" />
+        <img class="hover-image w-24 p-2" src="/apache-kafka-purple.svg"/>
+        <img class="unhover-image w-24 p-2" src="/apache-kafka-white.svg" />
         <p class="py-4 text-xl"></p>
       </a>
     </CardWhiteBlack>
@@ -38,8 +38,8 @@
         class="font-normal outline-none focus:outline-none"
 
         target="_blank">
-        <img class="hover-image w-48 p-2" src="grpc-purple.svg"/>
-        <img class="unhover-image w-48 p-2" src="grpc-white.svg" />
+        <img class="hover-image w-48 p-2" src="/grpc-purple.svg"/>
+        <img class="unhover-image w-48 p-2" src="/grpc-white.svg" />
         <p class="py-4 text-xl">REST</p>
       </a>
     </CardWhiteBlack>
@@ -48,8 +48,8 @@
         class="font-normal outline-none focus:outline-none"
 
         target="_blank">
-        <img class="hover-image w-48 p-2" src="grpc-purple.svg"/>
-        <img class="unhover-image w-48 p-2" src="grpc-white.svg" />
+        <img class="hover-image w-48 p-2" src="/grpc-purple.svg"/>
+        <img class="unhover-image w-48 p-2" src="/grpc-white.svg" />
         <p class="py-4 text-xl">gRPC</p>
       </a>
     </CardWhiteBlack>
