@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# JGross Nuxt Web App
 
-We recommend to look at the [documentation](https://v3.nuxtjs.org).
+This is the Nuxt web app hosted at https://jgross.tech. Take a look at the Nuxt [documentation](https://v3.nuxtjs.org) to learn more about the technology powering this website.
 
 ## Setup
 
