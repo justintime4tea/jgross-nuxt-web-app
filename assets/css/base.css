@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl font-semibold pb-2;
+  }
+
+  h2 {
+    @apply text-2xl text-gray-400;
+  }
+
+  h3 {
+    @apply text-xl pb-2;
+  }
+
+  li {
+    @apply py-1
+  }
+
+  body, main {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  body::-webkit-scrollbar, main::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer utilities {
+  .h1 {
+    @apply text-4xl font-semibold pb-2;
+  }
+
+  .bg-primary {
+    @apply bg-gray-800;
+  }
+
+  .text-primary {
+    @apply text-white;
+  }
+
+  .flex-around-items-center {
+    @apply flex flex-wrap justify-around items-center;
+  }
+
+  .flex-center {
+    @apply flex flex-wrap justify-center;
+  }
+
+  .flex-start {
+    @apply flex flex-wrap justify-start;
+  }
+
+  .flex-between {
+    @apply flex flex-wrap justify-between;
+  }
+
+  .centered {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  @variants hover, focus {
+    .outline-dashed {
+      outline: dashed;
+    }
+
+    .underlined {
+      border-bottom: 3px solid;
+    }
+
+    .underlined-purple {
+      @apply underlined;
+      @apply border-purple-400;
+    }
+
+    .underlined-green {
+      @apply underlined;
+      @apply border-green-400;
+    }
+  }
+}
