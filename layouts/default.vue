@@ -10,18 +10,25 @@
   </div>
 </template>
 <script lang="ts">
-  import { ref, defineComponent } from 'vue'
+  import { defineComponent } from 'vue'
+  import { useNavMenuState, NavMenuState } from '../store/nav-menu';
 
   export default defineComponent({
     setup() {
-      const navMenuIsOpen = ref(false);
+      const navMenuState = useNavMenuState() as NavMenuState;
       const onToggleNavMenu = () => {
-        navMenuIsOpen.value = !navMenuIsOpen.value
+        navMenuState.toggleNavMenu()
       }
 
       return {
-        navMenuIsOpen,
+        navMenuState,
         onToggleNavMenu
+      }
+    },
+    computed: {
+      navMenuIsOpen: function() {
+        const navMenuState: NavMenuState = this.navMenuState;
+        return navMenuState.navMenuIsOpen;
       }
     }
   })

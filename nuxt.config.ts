@@ -13,6 +13,7 @@ export default defineNuxtConfig({
   buildModules: [
     'nuxt-windicss',
     '@nuxtjs/pwa',
+    '@pinia/nuxt'
   ],
   css: [
     'virtual:windi-base.css',
