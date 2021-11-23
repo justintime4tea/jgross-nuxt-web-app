@@ -17,7 +17,7 @@
       <div class="p-8 w-136">
         <h3 class="text-purple-400">Hi! My name is</h3>
         <h1>Justin Gross.</h1>
-        <BaseTypeWriter class="text-gray-400 text-4xl pb-2" :array="typewriterText" :delay="500" :iterations="4" :type-speed="50" :erase-speed="50" :caret="underscore">I am a&nbsp;</BaseTypeWriter>
+        <BaseTypeWriter class="text-gray-400 text-4xl pb-2" :array="typewriterText" :delay="500" :iterations="4" :type-speed="50" :erase-speed="50">I am a&nbsp;</BaseTypeWriter>
         <p>I am driven by results and motivated by my love for my three children, my wife, and a lifelong passion for learning, technology and computer science.</p>
       </div>
     </div>
