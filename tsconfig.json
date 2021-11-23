@@ -18,10 +18,13 @@
       "ESNext.AsyncIterable",
       "DOM"
     ],
+    "baseUrl": ".",
     "paths": {
       "#app": [
         "./node_modules/nuxt3/dist/app/index"
-      ]
+      ],
+      "~/*": ["./*"],
+      "@/*": ["./*"]
     },
     "esModuleInterop": true,
     "allowJs": true,
