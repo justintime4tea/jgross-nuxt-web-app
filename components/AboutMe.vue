@@ -2,7 +2,7 @@
   <div class="w-screen flex-center">
     <div class="lg:p-0 max-w-screen-md lg:max-w-screen-lg lg:w-max">
       <div>
-        <a class="flex-center md:flex-between items-center" href="https://google.com" target="_blank">
+        <a class="flex-center md:flex-between items-center" href="https://jgross.tech">
           <div class="block lg:hidden image-holder">
             <img class="hover-image w-[256px] h-[256px] m-[24px]" src="/jgross-commodore64-purple.svg" />
             <img class="unhover-image w-[256px] h-[256px] m-[24px]" src="/jgross-commodore64-green.svg" />
@@ -17,7 +17,7 @@
             <img class="unhover-image w-[256px] h-[256px] m-[24px]" src="/jgross-commodore64-green.svg" />
           </div>
         </a>
-        <a class="flex-center md:flex-between items-center justify-between" href="https://google.com" target="_blank">
+        <a class="flex-center md:flex-between items-center justify-between" href="https://jgross.tech">
           <div class="ti-82-top block sm:hidden md:block image-holder">
             <img class="hover-image w-[256px] h-[256px] m-[24px]" src="/jgross-ti-82-purple.svg" />
             <img class="unhover-image w-[256px] h-[256px] m-[24px]" src="/jgross-ti-82-green.svg" />
@@ -32,7 +32,7 @@
             <img class="unhover-image w-[256px] h-[256px] m-[24px]" src="/jgross-ti-82-green.svg" />
           </div>
         </a>
-        <a class="flex-center sm:flex-between items-center" href="https://google.com" target="_blank">
+        <a class="flex-center sm:flex-between items-center" href="https://jgross.tech">
           <div class="block lg:hidden image-holder">
             <img class="hover-image w-[256px] md:w-[256px] m-[24px]" src="/build-tech-purple.svg" />
             <img class="unhover-image w-[256px] md:w-[256px] m-[24px]" src="/build-tech-green.svg" />
