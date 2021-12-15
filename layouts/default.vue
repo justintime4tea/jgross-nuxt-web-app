@@ -5,35 +5,68 @@
       <div class="mx-auto">
         <slot />
       </div>
+      <ChatModal :opened="shouldShowChatBox" @chat-button-click="onChatButtonClicked" @send-button-click="onSendButtonClick" :messages="messages"/>
     </main>
     <BaseFooter />
   </div>
 </template>
 <script lang="ts">
-  import { defineComponent } from 'vue'
+  import { defineComponent, computed, ref } from 'vue'
   import { useNavMenuState, NavMenuState } from '../store/nav-menu';
+  import { useMessageChannelStore } from '../store/message-channel';
 
   export default defineComponent({
-    setup() {
+    async setup() {
+			const shouldShowChatBox = ref(false);
+      const messageStore = useMessageChannelStore();
       const navMenuState = useNavMenuState() as NavMenuState;
       const onToggleNavMenu = () => {
         navMenuState.toggleNavMenu()
       }
 
+      await messageStore.connect();
+
+			const onChatButtonClicked = () => shouldShowChatBox.value = !shouldShowChatBox.value;
+      const onSendButtonClick = (message) => messageStore.send(message)
+
       return {
+				shouldShowChatBox,
+				onChatButtonClicked,
+        onSendButtonClick,
         navMenuState,
-        onToggleNavMenu
+        onToggleNavMenu,
+        messages: computed(() => messageStore.messages)
       }
     },
     computed: {
       navMenuIsOpen: function() {
         const navMenuState: NavMenuState = this.navMenuState;
-        return navMenuState.navMenuIsOpen;
+        return navMenuState.menuIsOpen;
       }
     }
   })
 </script>
 <style lang="postcss">
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 @media (max-width: 1024px) {
   .overlay-shown {
       position: relative;

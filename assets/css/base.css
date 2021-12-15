@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Roboto';
+  font-weight: normal;
+  src: url('~assets/webfonts/product-sans-regular.woff') format('woff');
+}
+
 @layer base {
   h1 {
     @apply text-4xl font-semibold pb-2;
@@ -64,7 +70,9 @@
     transform: translate(-50%, -50%);
   }
 
-  @variants hover, focus {
+  @variants hover, focus, responsive {
+    .expand {}
+
     .outline-dashed {
       outline: dashed;
     }

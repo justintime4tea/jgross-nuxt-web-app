@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Product Sans';
+  font-weight: normal;
+  src: local('../assets/webfonts/product-sans-regular.woff'); /* IE9 Compat Mode */
+  src: local('../assets/webfonts/product-sans-reular.woff') format('woff');
+}
+
+@font-face {
+	font-family: "Product Sans Web";
+  src: url("//db.onlinewebfonts.com/t/05093c1553c8ca12edeb59994bedc772.eot");
+	src: url("//db.onlinewebfonts.com/t/05093c1553c8ca12edeb59994bedc772.eot?#iefix") format("embedded-opentype"),
+			 url("//db.onlinewebfonts.com/t/05093c1553c8ca12edeb59994bedc772.woff2") format("woff2"),
+			 url("//db.onlinewebfonts.com/t/05093c1553c8ca12edeb59994bedc772.woff") format("woff"),
+			 url("//db.onlinewebfonts.com/t/05093c1553c8ca12edeb59994bedc772.ttf") format("truetype"),
+			 url("//db.onlinewebfonts.com/t/05093c1553c8ca12edeb59994bedc772.svg#Product Sans") format("svg");
+}

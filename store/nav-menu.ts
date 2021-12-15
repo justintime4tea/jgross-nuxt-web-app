@@ -1,10 +1,8 @@
 import { acceptHMRUpdate, defineStore } from 'pinia'
 
-import { Store } from 'pinia';
-
 export interface NavMenuState {
   toggleNavMenu: () => void;
-  navMenuIsOpen: Boolean;
+  menuIsOpen: Boolean;
 };
 
 export const useNavMenuState = defineStore({
@@ -13,8 +11,8 @@ export const useNavMenuState = defineStore({
     navMenuIsOpen: false,
   } as NavMenuState),
   getters: {
-    menuIsOpen() {
-      return this.state.navMenuIsOpen;
+    menuIsOpen(state) {
+      return state.navMenuIsOpen;
     }
   },
   actions: {

@@ -12,6 +12,10 @@ module.exports = {
     "./nuxt.config.{js,ts}",
   ],
   theme: {
+    fontFamily: {
+      'display': ['Roboto', 'ui-sans-serif', 'system-ui'],
+      'body': ['Roboto', 'ui-sans-serif', 'system-ui'],
+    },
     extend: {
       keyframes: {
         waggle: {

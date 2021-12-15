@@ -2,11 +2,11 @@
   <div class="w-screen flex flex-wrap justify-start items-center">
     <div class="w-screen flex-center items-center">
       <div class="p-0">
-        <img :style="jgrossImageStyle" src="/jgross.jpg"/>
+        <img class="rounded-md lg:w-[363px]" :style="jgrossImageStyle" src="/jgross.jpg"/>
       </div>
-      <div class="w-screen lg:hidden pt-4 lg:pt-8 flex flex-wrap flex-col justify-center items-center">
-        <BaseScheduleMeeting class="m-0 w-[338px] text-center animate-pulse" />
-        <button class="my-4 py-2 px-4 h-10 bg-green-600 hover:bg-purple-400 font-bold w-[338px]">
+      <div class="w-screen uppercase lg:hidden pt-4 lg:pt-8 flex flex-wrap flex-col justify-center items-center">
+        <BaseScheduleMeeting class="m-0 h-15 w-[338px] text-center items-center animate-pulse rounded-md pt-[12px]" />
+        <button class="uppercase my-4 py-1 px-4 h-15 bg-transparent border-2 border-green-500 text-green-500 text-lg rounded-lg hover:bg-green-600 hover:text-gray-100 focus:border-4 focus:border-green-600 w-[338px]">
           Watch me live
         </button>
         <div class="lg:w-136"></div>
@@ -21,9 +21,9 @@
         <p>I am driven by results and motivated by my love for my three children, my wife, and a lifelong passion for learning, technology and computer science.</p>
       </div>
     </div>
-    <div class="w-screen hidden lg:flex lg:flex-wrap lg:justify-center items-center">
-      <BaseScheduleMeeting class="mr-4 w-[185px] animate-pulse text-center"/>
-      <a class="my-4 py-2 px-4 h-10 bg-green-600 hover:bg-purple-400 font-bold" href="https://twitch.tv/justintime4tea253" target="_blank">
+    <div class="w-screen uppercase hidden lg:flex lg:flex-wrap lg:justify-center items-center py-4">
+      <BaseScheduleMeeting class="mr-4 w-[185px] animate-pulse text-center rounded-md"/>
+      <a class="py-1 px-4 h-10 bg-transparent border-2 border-green-500 text-green-500 text-lg rounded-lg hover:bg-green-600 hover:text-gray-100 focus:border-4 focus:border-green-600" href="https://twitch.tv/justintime4tea253" target="_blank">
         Watch me live
       </a>
       <div class="lg:w-136"></div>

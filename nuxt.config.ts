@@ -1,4 +1,5 @@
 import { defineNuxtConfig } from 'nuxt3'
+import polyfillNode from 'rollup-plugin-polyfill-node'
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
@@ -10,12 +11,14 @@ export default defineNuxtConfig({
       { hid: 'calendly', src: 'https://assets.calendly.com/assets/external/widget.js' },
     ]
   },
+  ssr: true,
   buildModules: [
     'nuxt-windicss',
     '@nuxtjs/pwa',
     '@pinia/nuxt'
   ],
   css: [
+    '@/assets/css/product-sans.css',
     'virtual:windi-base.css',
     '@/assets/css/base.css',
     'virtual:windi-components.css',
@@ -31,6 +34,11 @@ export default defineNuxtConfig({
       if (isDev) {
         config.mode = 'development'
         config.devtools = true
+        if (!!config.node) {
+          config.node.Buffer = false
+        } else {
+          config.node = { Buffer: false }
+        }
       }
 
       // const mjsModules = {
@@ -56,6 +64,24 @@ export default defineNuxtConfig({
           needRuntime: true
         })
       }
+    }
+  },
+  vite: {
+    plugins: [ polyfillNode() ]
+  },
+  googleFonts: {
+    families: {
+      Roboto: true,
+      'Josefin+Sans': true,
+      Lato: [100, 300],
+      Raleway: {
+        wght: [100, 400],
+        ital: [100]
+      },
+      download: true,
+      base64: true,
+      inject: true,
+      overwriteing: true
     }
   },
   manifest: {
